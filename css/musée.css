@@ -1,0 +1,155 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  background: transparent;
+  backdrop-filter: brightness(60%);;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li {
+  padding: 8px 23px;
+}
+
+header nav ul li:hover {
+  background: #00A8E8;
+  transition: ease-in 0.1s;
+  color: black;
+  border-radius: 5%;
+}
+
+
+/* MUSéE  MUSéE  MUSéE  MUSéE  MUSéE  MUSéE  MUSéE  MUSéE */
+
+.prez {
+  display: flex;
+  padding: 0%;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+}
+.prez p {
+  width: 70%;
+  }
+.row-reverse img , .reverse img{
+  width: 30%;
+  border: 20px solid;
+}
+.reverse {
+  display: flex;
+  padding: 0%;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 10%;
+  align-items: center;
+}
+.row-reverse a,.reverse a{
+  width: 15%;
+}
+.row-reverse {
+display: flex;
+padding-bottom: 5%;
+flex-direction: row-reverse;
+padding-right: 10%;
+}
+.reverse p {
+width: 53%;
+}
+
+.row-reverse p {
+padding-right: 5%;
+display: flex;
+align-items: center;
+width: 53%;
+}
+
+#logo{
+  margin-left: 5%;
+}
+#M2 {
+  width: 35%;
+}
+#M3 {
+  width: 35%;
+}
+#M4 {
+  width: 35%;
+}
+#M5{
+  width: 35%;
+}
+#Pare {
+  width: 100%;
+}
+
+
+
+
+/* FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER */
+
+
+footer {
+  padding: 40px;
+  background-color:  #00171F;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer #socialIcon i {
+  font-size: 3.2em;
+  color: #00A8E8;
+  padding-left: 10px;
+}
+
+footer #socialIcon i:hover {
+  color: #007EA7;
+}
+
+footer #navigation h3 {
+  color: #00A8E8;
+  padding-bottom: 23px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 23px;
+}
+
+footer a:hover {
+  color: #00A8E8;
+}
+
+footer #navigation ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2em;
+}
+
