@@ -32,7 +32,7 @@ li
 
 .p_left
 {
-	text-align: left;
+	text-align: center;
 	margin-left: 50px;
 	margin-right: 1000px;
 	margin-top: 50px;
@@ -43,7 +43,7 @@ li
 	text-align: center;
 	margin-left: 1000px;
 	margin-right: 50px;
-	margin-top: -240px;
+	margin-top: -150px;
 }
 
 .img_1
@@ -55,3 +55,26 @@ li
 	margin-right: auto;
 	margin-top: 50px;
 }
+
+.h1_left{
+	text-align: left;
+	margin-left: 700px;
+	text-decoration : underline;
+}
+
+.h1_right{
+	text-align: right;
+	margin-bottom: 220px;
+	margin-right: 600px;
+	text-decoration : underline;
+	margin-top: 80px;
+}
+
+.vdm1{
+	width: 500px;
+	height: 500px;
+	margin-top: -450px;
+	margin-left: 500px;
+}
+
+
