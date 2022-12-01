@@ -1,0 +1,36 @@
+header {
+    top: 0;
+    position: sticky;
+    background: transparent;
+    backdrop-filter: brightness(60%);;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+  }
+  
+  header nav {
+    width: 50%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  header nav ul a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav ul li {
+    padding: 8px 23px;
+  }
+  
+  header nav ul li:hover {
+    background: #00A8E8;
+    transition: ease-in 0.1s;
+    color: black;
+    border-radius: 5%;
+  }
