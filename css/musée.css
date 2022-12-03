@@ -29,7 +29,8 @@ li
   }
 .row-reverse img , .reverse img{
   width: 30%;
-  border: 20px solid;
+  border: 7px solid;
+  border-radius: 10%;
 }
 .reverse {
   display: flex;
